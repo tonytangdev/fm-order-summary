@@ -6,7 +6,6 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: hsl(225, 100%, 94%);
   background-image: url(../public/pattern-background-mobile.svg);
-  /* background-image: url(../public/pattern-background-desktop.svg); */
   background-repeat: repeat-x;
   font-size: 16px;
 }
@@ -20,3 +19,9 @@ a {
   box-sizing: border-box;
 }
 
+@media (min-width: 375px) {
+  html,
+  body {
+    background-image: url(../public/pattern-background-desktop.svg);
+  }
+}
