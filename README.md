@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://fm-order-summary.vercel.app/)
+- Live Site URL: [https://fm-order-summary.vercel.app/](https://fm-order-summary.vercel.app/)
 
 ## My process
 
