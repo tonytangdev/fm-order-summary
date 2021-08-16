@@ -10,7 +10,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Steps](#steps)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
@@ -63,6 +62,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
  - Add fonts from google using Next.js
  - Use SVG as background-image
+ - Center an element inside a div with height: 100vh
 
 **Note: Delete this note and the content within this section and replace with your own learnings.**
 
@@ -73,6 +73,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 - [Next.js](https://nextjs.org/docs/advanced-features/custom-document) - This helped me for adding a new font from google fonts.
+- [Rohit Gulam](https://rohitgulam.hashnode.dev/the-top-3-ways-to-center-a-div-in-css) - This helped me for centering my main element.
 
 ## Author
 

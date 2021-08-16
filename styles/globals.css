@@ -5,7 +5,8 @@ body {
   font-family: 'Red Hat Display', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: hsl(225, 100%, 94%);
-  background-image: url(../public/pattern-background-desktop.svg);
+  background-image: url(../public/pattern-background-mobile.svg);
+  /* background-image: url(../public/pattern-background-desktop.svg); */
   background-repeat: repeat-x;
 }
 

@@ -1,4 +1,6 @@
 import * as React from 'react'
+import styles from '../styles/Card.module.css'
+
 import Button from './Button'
 import Hero from './Hero'
 import Item from './Item'
@@ -8,7 +10,7 @@ interface ICardProps {
 
 const Card: React.FunctionComponent<ICardProps> = (props) => {
     return (
-        <>
+        <div className={styles.container}>
             <Hero />
             <h2>
                 Order Summary
@@ -23,8 +25,8 @@ const Card: React.FunctionComponent<ICardProps> = (props) => {
             <div>
                 <Button title="Cancel Order" />
             </div>
-            
-        </>
+
+        </div>
     )
 }
 
