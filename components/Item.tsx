@@ -1,4 +1,5 @@
 import * as React from 'react'
+import Button from './Button'
 
 interface IItemProps {
 }
@@ -15,9 +16,9 @@ const Item: React.FunctionComponent<IItemProps> = (props) => {
                     $59.99/year
                 </span>
             </div>
-            <span>
-                Change
-            </span>
+            <div>
+                <Button title="Change" />
+            </div>
         </>
     )
 }
