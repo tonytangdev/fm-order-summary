@@ -27,8 +27,8 @@ const Card: React.FunctionComponent<ICardProps> = (props) => {
                 <div className={styles.containerItems}>
                     <Button title="Proceed to Payment" />
                 </div>
-                <div>
-                    <Button title="Cancel Order" />
+                <div className={styles.cancelBtnContainer}>
+                    <Button title="Cancel Order" isSecondary />
                 </div>
             </div>
 

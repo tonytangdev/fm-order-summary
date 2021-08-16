@@ -31,3 +31,8 @@
 .containerItems {
     margin-bottom: 1.5rem;
 }
+
+.cancelBtnContainer {
+    display: flex;
+    justify-content: center;
+}

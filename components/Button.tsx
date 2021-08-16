@@ -15,7 +15,7 @@ const Button: React.FunctionComponent<IButtonProps> = ({
     let buttonStyles = styles.button
 
     if (isSecondary) {
-        buttonStyles = styles.seconday
+        buttonStyles = styles.secondary
     } else if (isLink) {
         buttonStyles = styles.link
     }
