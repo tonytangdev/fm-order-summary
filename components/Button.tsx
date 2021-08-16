@@ -1,15 +1,18 @@
 import * as React from 'react'
+import styles from '../styles/Button.module.css'
 
 interface IButtonProps {
-    title: string
+    title: string,
+    isLink: boolean
 }
 
 const Button: React.FunctionComponent<IButtonProps> = ({
-    title
+    title,
+    isLink
 }) => {
     return (
         <>
-            <button>{title}</button>
+            <button className={styles.link}>{title}</button>
         </>
     )
 }

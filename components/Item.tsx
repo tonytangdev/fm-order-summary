@@ -19,7 +19,7 @@ const Item: React.FunctionComponent<IItemProps> = (props) => {
                 </span>
             </div>
             <div className={styles.buttonContainer}>
-                <Button title="Change" />
+                <Button title="Change" isLink />
             </div>
         </div>
     )
