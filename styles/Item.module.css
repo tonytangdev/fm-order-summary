@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    grid-template: 1fr / 1fr 2fr 1fr;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.price {
+    color: hsl(224, 23%, 55%);
+    font-size: 0.8rem;
+}
+
+.buttonContainer {
+    justify-self: end;
+}

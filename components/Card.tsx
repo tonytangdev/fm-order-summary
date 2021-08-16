@@ -13,13 +13,17 @@ const Card: React.FunctionComponent<ICardProps> = (props) => {
         <div className={styles.container}>
             <Hero />
             <div className={styles.cardContent}>
-                <h2 className={styles.title}>
-                    Order Summary
-                </h2>
-                <p className={styles.paragraph}>
-                    You can now listen to milions of songs, audiobooks, and podcasts on any device anywhere you like !
-                </p>
-                <Item />
+                <div className={styles.containerItems}>
+                    <h2 className={styles.title}>
+                        Order Summary
+                    </h2>
+                    <p className={styles.paragraph}>
+                        You can now listen to milions of songs, audiobooks, and podcasts on any device anywhere you like !
+                    </p>
+                </div>
+                <div className={styles.containerItems}>
+                    <Item />
+                </div>
                 <div>
                     <Button title="Proceed to Payment" />
                 </div>
