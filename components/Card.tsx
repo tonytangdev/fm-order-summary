@@ -24,7 +24,7 @@ const Card: React.FunctionComponent<ICardProps> = (props) => {
                 <div className={styles.containerItems}>
                     <Item />
                 </div>
-                <div>
+                <div className={styles.containerItems}>
                     <Button title="Proceed to Payment" />
                 </div>
                 <div>

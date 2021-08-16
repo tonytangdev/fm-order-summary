@@ -3,16 +3,26 @@ import styles from '../styles/Button.module.css'
 
 interface IButtonProps {
     title: string,
-    isLink: boolean
+    isLink?: boolean,
+    isSecondary?: boolean
 }
 
 const Button: React.FunctionComponent<IButtonProps> = ({
     title,
-    isLink
+    isLink,
+    isSecondary
 }) => {
+    let buttonStyles = styles.button
+
+    if (isSecondary) {
+        buttonStyles = styles.seconday
+    } else if (isLink) {
+        buttonStyles = styles.link
+    }
+
     return (
         <>
-            <button className={styles.link}>{title}</button>
+            <button className={`${buttonStyles} ${styles.activeButton}`}>{title}</button>
         </>
     )
 }
