@@ -1,10 +1,14 @@
-import * as React from 'react';
+import * as React from 'react'
 
 interface IHeroProps {
 }
 
 const Hero: React.FunctionComponent<IHeroProps> = (props) => {
-  return null;
-};
+  return (
+    <>
+      <img src="illustration-hero.svg" />
+    </>
+  )
+}
 
-export default Hero;
+export default Hero

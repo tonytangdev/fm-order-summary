@@ -1,4 +1,5 @@
 import * as React from 'react'
+import Hero from './Hero'
 
 interface ICardProps {
 }
@@ -6,7 +7,7 @@ interface ICardProps {
 const Card: React.FunctionComponent<ICardProps> = (props) => {
     return (
         <>
-            Card
+            <Hero />
         </>
     )
 }
