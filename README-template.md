@@ -62,6 +62,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### What I learned
 
  - Add fonts from google using Next.js
+ - Use SVG as background-image
 
 **Note: Delete this note and the content within this section and replace with your own learnings.**
 
