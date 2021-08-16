@@ -1,5 +1,7 @@
 import * as React from 'react'
+import Image from 'next/image'
 import styles from '../styles/Item.module.css'
+import IconMusicPic from '../public/icon-music.svg'
 
 import Button from './Button'
 
@@ -9,7 +11,7 @@ interface IItemProps {
 const Item: React.FunctionComponent<IItemProps> = (props) => {
     return (
         <div className={styles.container}>
-            <img src="icon-music.svg" alt="icon music" />
+            <Image src={IconMusicPic} alt="icon music" className={styles.image} />
             <div>
                 <h3 className={styles.title}>
                     Annual Plan

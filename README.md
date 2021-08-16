@@ -46,6 +46,7 @@ Users should be able to:
  - Add fonts from google using Next.js
  - Use SVG as background-image
  - Center an element inside a div with height: 100vh
+ - Optimize images with Image component from next/image
 
 ### Continued development
 
