@@ -30,6 +30,7 @@ Users should be able to:
 
 ### Links
 
+- Solution URL: [https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/nextjs-app-GGeXP-02L](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/nextjs-app-GGeXP-02L)
 - Live Site URL: [https://fm-order-summary.vercel.app/](https://fm-order-summary.vercel.app/)
 
 ## My process
