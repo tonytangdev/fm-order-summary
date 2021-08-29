@@ -61,7 +61,7 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@tonytangdev](https://www.frontendmentor.io/profile/tonytangdev)
-- Twitter - [@tonytangdev](https://twitter.com/TangTangdev)
+- Twitter - [@tonytangdev](https://twitter.com/TonyTangdev)
 
 
 ## Acknowledgments
